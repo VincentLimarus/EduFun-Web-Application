@@ -13,7 +13,7 @@
                         <img src="{{asset('Assets/'. $writer->photo_url)}}" class="rounded-circle shadow-sm" alt="..." width="50%" height="50%" style="margin-left: 9.5rem"> 
                     </a>
                     <h1 class="text-center fs-3 fw-bold mt-3">{{$writer->name}}</h1>
-                    <p class="text-center fs-4 mt-3" style="margin-bottom: 8rem">{{$writer->job}}</p>
+                    <p class="text-center fs-4 mt-3" style="margin-bottom: 10rem">{{$writer->job}}</p>
                 </div>
             @endforeach
         </div>
